@@ -1,0 +1,11 @@
+.Icon-wrapper{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    top: 20px;
+}
+.loginIcon-left{
+    width: 260px;
+}
+.loginIcon-left img{width: 40px;padding: 10px;}

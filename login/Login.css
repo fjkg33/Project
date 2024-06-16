@@ -1,0 +1,45 @@
+.login-wrapper{
+    width: 400px;
+    height: 600px;
+    background-color: white;
+    margin: 40px auto;
+}
+.login-top h3{margin-left: 30px; line-height: 60px;}
+.login-top span{
+    margin-left: 30px;
+    font-size: 14px;
+    font-weight: bold;
+}
+.login-top input{
+    width: 80%;
+    height: 40px;
+    display: block;
+    margin-left: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.login-bottom{
+    width: 100%;
+text-align: center;
+    margin: 0 auto;
+}
+.login-bottom div{
+    width: 330px;
+    height: 40px;
+    margin: 20px auto;
+    margin-right: 40px;
+    background-color: rgb(243, 121, 121);
+    text-align: center;
+    line-height: 40px;
+}
+.login-bottom .join{
+    background-color: rgb(126, 248, 248);
+}
+.login-bottom span{
+    font-size: 14px;
+    font-weight: bold;
+}
+.login-bottom p{
+    font-size: 14px;
+    font-weight: bold;
+}
