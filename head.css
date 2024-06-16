@@ -1,0 +1,176 @@
+
+
+.navbar a {
+    text-decoration: none;
+    color: black;
+    display: flex;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ECE2CD;
+    padding: 8px 0px;
+    margin: 0;
+    padding-left: 12px;
+    padding-right: 10px;
+}
+
+.navbar_logo{
+    font-size: 50px;
+    color: white;
+    letter-spacing:10px;
+    width: 20%;
+}
+
+.navbar_logo a i {
+color: black;
+}
+
+.navbar_menu {
+    display: flex;
+    list-style: none;
+    padding-left: 0;
+    width: 68%;
+    justify-content: space-between;
+    font-weight: 600;
+}
+.navbar_menu a {
+    display: flex;
+}
+
+.navbar_menu li {
+    padding: 8px 12px;
+    display: flex;
+ 
+}
+
+
+.navbar_menu li:hover{
+    background-color: rgb(252, 210, 151);
+    border-radius: 20px;
+}
+
+.navbar_toogleBtn {
+    
+    display: flex;
+    /* position: absolute; */
+    right: 32px;
+    font-size: 24px;
+    color: black;
+    list-style: none;
+    width: 4%;
+
+}
+.navbar .navbar_toogleBtn {
+    display: none;
+
+    position: absolute;
+    font-size: 34px;
+    color: black;
+    list-style: none;
+}
+
+/* ------------------------------------ */
+
+.cht{
+    background-color: rgb(245, 243, 203);
+    display: flex;
+    justify-content: space-between;
+   
+}
+
+.cht p {
+    margin: 0;
+    padding: 20px;
+}
+
+
+.cht1 {
+    font-size: 20px;
+    font-weight: bold;
+
+}
+
+.cht2 {
+    font-size: 10px;
+    background-color: rgb(240, 207, 242);
+    border-radius: 50%;
+    border: 0px;
+}
+
+.cht3 {
+    justify-content: space-between;
+}
+
+.reservation_form input {
+    padding: 0px;
+    border: 1px solid black;
+}
+
+.reservation_point, .reservation_date, .reservation_time {
+    display: flex;
+}
+.p1, .p2, .p3 {
+    align-items: center;
+    display: flex;
+}
+
+.reservation_start {
+    padding: 20px;
+}
+
+
+@media screen and (max-width: 760px) {
+
+    .navbar{
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 18px 0;
+        padding-left: 12px;
+    }
+    .navbar_menu {
+        display: none;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+    .navbar_toogleBtn li{
+        position: absolute;
+        font-size: 34px;
+        color: black;
+        list-style: none;
+
+    
+    }
+
+    .navbar_menu.active {
+        display: flex;
+    }
+
+    .navbar .navbar_toogleBtn {
+        display: block;
+    }
+
+}
+/* ---------------------------- */
+
+.pet {
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    background-color: #ECE2CD;
+}
+
+
+.pet img {
+/* background-position: center;
+position: absoulte; */
+width: 80%;
+
+
+
+
+}
+
